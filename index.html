@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced HTML5 Elements Assignment</title>
+  </head>
+  <body>
+    <header>
+      <h1>Advanced HTML5 Elements and Forms</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+      <h2>Ordered List</h2>
+      <ol type="I">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+        <li>Item Five</li>
+      </ol>
+    </section>
+
+    <!-- External Image -->
+    <section>
+      <h2>External Image</h2>
+      <img
+        src="https://images.pexels.com/photos/547119/pexels-photo-547119.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="Beautiful nature scene"
+        width="600"
+      />
+    </section>
+
+    <!-- Contacts Table -->
+    <section>
+      <h2>Contacts Table</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John Malembe</td>
+            <td>123 Main Road</td>
+            <td>+25434567890</td>
+            <td>john@example.com</td>
+          </tr>
+          <tr>
+            <td>Jane Smith</td>
+            <td>456 Oak Ave</td>
+            <td>+25487654321</td>
+            <td>jane@example.com</td>
+          </tr>
+          <tr>
+            <td>Michael Johnson Kalambi</td>
+            <td>Malkia Rd</td>
+            <td>+1122334455</td>
+            <td>michael@example.com</td>
+          </tr>
+          <tr>
+            <td>Emily White Wangari</td>
+            <td>101 Birch Ln</td>
+            <td>+25466778899</td>
+            <td>emily@example.com</td>
+          </tr>
+          <tr>
+            <td>David Brown Kamani</td>
+            <td>Cedar Blvd</td>
+            <td>+25477889900</td>
+            <td>david@example.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <!-- Registration Form -->
+    <section>
+      <h2>Registration Form</h2>
+      <form action="#" method="POST">
+        <label for="name">Full Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your full name"
+          required
+        />
+        <br />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+        <br />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter password"
+          required
+        />
+        <br />
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required />
+        <br />
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label>
+        <br />
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+          <option value="">Select your country</option>
+          <option value="USA">USA</option>
+          <option value="Canada">Canada</option>
+          <option value="UK">UK</option>
+          <option value="Australia">Australia</option>
+        </select>
+        <br />
+
+        <label>Interests:</label>
+        <input type="checkbox" id="sports" name="interests" value="sports" />
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music" />
+        <label for="music">Music</label>
+        <input type="checkbox" id="travel" name="interests" value="travel" />
+        <label for="travel">Travel</label>
+        <br />
+
+        <input type="submit" value="Register" />
+      </form>
+    </section>
+
+    <!-- Multimedia Elements -->
+    <section>
+      <h2>Multimedia</h2>
+      <audio controls>
+        <source
+          src="https://www2.cs.uic.edu/~i101/SoundFiles/PinkPanther30.wav"
+          type="audio/wav"
+        />
+        Your browser does not support the audio element.
+      </audio>
+      <br />
+      <video controls width="600">
+        <source
+          src="https://samplelib.com/lib/preview/mp4/sample-5s.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+  </body>
+</html>
